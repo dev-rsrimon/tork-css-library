@@ -9,11 +9,46 @@ $tork-theme-display: (
   grid: grid,
   table: table,
   table-cell: table-cell,
-  table-row: table-row
+  table-row: table-row,
 );
-// -----------------------Display item show--------------------
+// -----------------------Display item show
 @each $dname, $value in $tork-theme-display {
   .#{tork-d- + $dname} {
     display: $value;
   }
-};
+}
+
+// ------------Responsive display
+
+// For small devices
+@media only screen and (min-width: 576px) {
+  @each $dname, $value in $tork-theme-display {
+    .#{tork-d-sm- + $dname} {
+      display: $value;
+    }
+  }
+}
+// For Midium devices
+@media only screen and (min-width: 768px) {
+  @each $dname, $value in $tork-theme-display {
+    .#{tork-d-md- + $dname} {
+      display: $value;
+    }
+  }
+}
+// For large devices
+@media only screen and (min-width: 992px) {
+  @each $dname, $value in $tork-theme-display {
+    .#{tork-d-lg- + $dname} {
+      display: $value;
+    }
+  }
+}
+// For extra large devices
+@media only screen and (min-width: 1200px) {
+  @each $dname, $value in $tork-theme-display {
+    .#{tork-d-xl- + $dname} {
+      display: $value;
+    }
+  }
+}

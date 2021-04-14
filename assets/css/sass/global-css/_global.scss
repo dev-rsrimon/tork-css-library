@@ -1,11 +1,6 @@
+// includes files
 @import "../includes/fonts";
-@import "../includes/grid";
 @import "../includes/colors";
-@import "../includes/utilities/border";
-@import "../includes/utilities/spacing";
-@import "../includes/utilities/typography";
-@import "../includes/utilities/display";
-@import "../includes/utilities/flex";
 
 * {
   margin: 0;
@@ -81,3 +76,10 @@ ul {
     max-width: 1140px;
   }
 }
+// Inclueded utilities and grids files
+@import "../includes/grid";
+@import "../includes/utilities/border";
+@import "../includes/utilities/spacing";
+@import "../includes/utilities/typography";
+@import "../includes/utilities/display";
+@import "../includes/utilities/flex";
