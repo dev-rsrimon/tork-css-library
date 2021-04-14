@@ -547,6 +547,114 @@ ul {
   border-color: #212529;
 }
 
+.tork-border-1 {
+  border-width: 1px;
+}
+
+.tork-border-2 {
+  border-width: 2px;
+}
+
+.tork-border-3 {
+  border-width: 3px;
+}
+
+.tork-border-4 {
+  border-width: 4px;
+}
+
+.tork-border-5 {
+  border-width: 5px;
+}
+
+.tork-border-top {
+  border-top: 1px solid #dee2e6;
+}
+
+.tork-border-right {
+  border-top: 1px solid #dee2e6;
+}
+
+.tork-border-left {
+  border-left: 1px solid #dee2e6;
+}
+
+.tork-border-bottom {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.tork-border-top-0 {
+  border-top: 0 !important;
+}
+
+.tork-border-right-0 {
+  border-top: 0 !important;
+}
+
+.tork-border-left-0 {
+  border-left: 0 !important;
+}
+
+.tork-border-bottom-0 {
+  border-bottom: 0 !important;
+}
+
+.tork-rounded {
+  border-radius: 0.25rem;
+}
+
+.tork-rounded-top {
+  border-top-left-radius: 0.25rem !important;
+  border-top-right-radius: 0.25rem !important;
+}
+
+.tork-rounded-right {
+  border-top-right-radius: 0.25rem !important;
+  border-bottom-right-radius: 0.25rem !important;
+}
+
+.tork-rounded-bottom {
+  border-bottom-right-radius: 0.25rem !important;
+  border-bottom-left-radius: 0.25rem !important;
+}
+
+.tork-rounded-left {
+  border-bottom-left-radius: 0.25rem !important;
+  border-top-left-radius: 0.25rem !important;
+}
+
+.tork-rounded-circle {
+  border-radius: 50% !important;
+}
+
+.tork-rounded-pill {
+  border-radius: 50rem !important;
+}
+
+.tork-rounded-0 {
+  border-radius: 0rem !important;
+}
+
+.tork-rounded-1 {
+  border-radius: 0.25rem !important;
+}
+
+.tork-rounded-2 {
+  border-radius: 0.5rem !important;
+}
+
+.tork-rounded-3 {
+  border-radius: 0.75rem !important;
+}
+
+.tork-rounded-4 {
+  border-radius: 1rem !important;
+}
+
+.tork-rounded-5 {
+  border-radius: 1.25rem !important;
+}
+
 /*---------------------------
 * Spacing or marging padding 
 ---------------------------*/
@@ -2849,6 +2957,411 @@ ul {
   }
   .tork-overflow-xl-scroll {
     overflow: scroll;
+  }
+}
+
+.tork-position-static {
+  position: static;
+}
+
+.tork-position-relative {
+  position: relative;
+}
+
+.tork-position-absolute {
+  position: absolute;
+}
+
+.tork-position-fixed {
+  position: fixed;
+}
+
+.tork-position-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+@media only screen and (min-width: 576px) {
+  .tork-position-sm-static {
+    position: static;
+  }
+  .tork-position-sm-relative {
+    position: relative;
+  }
+  .tork-position-sm-absolute {
+    position: absolute;
+  }
+  .tork-position-sm-fixed {
+    position: fixed;
+  }
+  .tork-position-sm-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .tork-position-md-static {
+    position: static;
+  }
+  .tork-position-md-relative {
+    position: relative;
+  }
+  .tork-position-md-absolute {
+    position: absolute;
+  }
+  .tork-position-md-fixed {
+    position: fixed;
+  }
+  .tork-position-md-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .tork-position-lg-static {
+    position: static;
+  }
+  .tork-position-lg-relative {
+    position: relative;
+  }
+  .tork-position-lg-absolute {
+    position: absolute;
+  }
+  .tork-position-lg-fixed {
+    position: fixed;
+  }
+  .tork-position-lg-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .tork-position-xl-static {
+    position: static;
+  }
+  .tork-position-xl-relative {
+    position: relative;
+  }
+  .tork-position-xl-absolute {
+    position: absolute;
+  }
+  .tork-position-xl-fixed {
+    position: fixed;
+  }
+  .tork-position-xl-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+}
+
+.tork-w-10 {
+  width: 10%;
+}
+
+.tork-w-20 {
+  width: 20%;
+}
+
+.tork-w-25 {
+  width: 25%;
+}
+
+.tork-w-30 {
+  width: 30%;
+}
+
+.tork-w-40 {
+  width: 40%;
+}
+
+.tork-w-50 {
+  width: 50%;
+}
+
+.tork-w-75 {
+  width: 75%;
+}
+
+.tork-w-100 {
+  width: 100%;
+}
+
+.tork-w-auto {
+  width: auto;
+}
+
+@media only screen and (min-width: 576px) {
+  .tork-w-sm-10 {
+    width: 10%;
+  }
+  .tork-w-sm-20 {
+    width: 20%;
+  }
+  .tork-w-sm-25 {
+    width: 25%;
+  }
+  .tork-w-sm-30 {
+    width: 30%;
+  }
+  .tork-w-sm-40 {
+    width: 40%;
+  }
+  .tork-w-sm-50 {
+    width: 50%;
+  }
+  .tork-w-sm-75 {
+    width: 75%;
+  }
+  .tork-w-sm-100 {
+    width: 100%;
+  }
+  .tork-w-sm-auto {
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .tork-w-md-10 {
+    width: 10%;
+  }
+  .tork-w-md-20 {
+    width: 20%;
+  }
+  .tork-w-md-25 {
+    width: 25%;
+  }
+  .tork-w-md-30 {
+    width: 30%;
+  }
+  .tork-w-md-40 {
+    width: 40%;
+  }
+  .tork-w-md-50 {
+    width: 50%;
+  }
+  .tork-w-md-75 {
+    width: 75%;
+  }
+  .tork-w-md-100 {
+    width: 100%;
+  }
+  .tork-w-md-auto {
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .tork-w-lg-10 {
+    width: 10%;
+  }
+  .tork-w-lg-20 {
+    width: 20%;
+  }
+  .tork-w-lg-25 {
+    width: 25%;
+  }
+  .tork-w-lg-30 {
+    width: 30%;
+  }
+  .tork-w-lg-40 {
+    width: 40%;
+  }
+  .tork-w-lg-50 {
+    width: 50%;
+  }
+  .tork-w-lg-75 {
+    width: 75%;
+  }
+  .tork-w-lg-100 {
+    width: 100%;
+  }
+  .tork-w-lg-auto {
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .tork-w-xl-10 {
+    width: 10%;
+  }
+  .tork-w-xl-20 {
+    width: 20%;
+  }
+  .tork-w-xl-25 {
+    width: 25%;
+  }
+  .tork-w-xl-30 {
+    width: 30%;
+  }
+  .tork-w-xl-40 {
+    width: 40%;
+  }
+  .tork-w-xl-50 {
+    width: 50%;
+  }
+  .tork-w-xl-75 {
+    width: 75%;
+  }
+  .tork-w-xl-100 {
+    width: 100%;
+  }
+  .tork-w-xl-auto {
+    width: auto;
+  }
+}
+
+.tork-v-align-baseline {
+  vertical-align: baseline;
+}
+
+.tork-v-align-top {
+  vertical-align: top;
+}
+
+.tork-v-align-middle {
+  vertical-align: middle;
+}
+
+.tork-v-align-bottom {
+  vertical-align: bottom;
+}
+
+.tork-v-align-text-bottom {
+  vertical-align: text-bottom;
+}
+
+.tork-v-align-text-top {
+  vertical-align: text-top;
+}
+
+@media only screen and (min-width: 576px) {
+  .tork-v-align-sm-baseline {
+    vertical-align: baseline;
+  }
+  .tork-v-align-sm-top {
+    vertical-align: top;
+  }
+  .tork-v-align-sm-middle {
+    vertical-align: middle;
+  }
+  .tork-v-align-sm-bottom {
+    vertical-align: bottom;
+  }
+  .tork-v-align-sm-text-bottom {
+    vertical-align: text-bottom;
+  }
+  .tork-v-align-sm-text-top {
+    vertical-align: text-top;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .tork-v-align-md-baseline {
+    vertical-align: baseline;
+  }
+  .tork-v-align-md-top {
+    vertical-align: top;
+  }
+  .tork-v-align-md-middle {
+    vertical-align: middle;
+  }
+  .tork-v-align-md-bottom {
+    vertical-align: bottom;
+  }
+  .tork-v-align-md-text-bottom {
+    vertical-align: text-bottom;
+  }
+  .tork-v-align-md-text-top {
+    vertical-align: text-top;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .tork-v-align-lg-baseline {
+    vertical-align: baseline;
+  }
+  .tork-v-align-lg-top {
+    vertical-align: top;
+  }
+  .tork-v-align-lg-middle {
+    vertical-align: middle;
+  }
+  .tork-v-align-lg-bottom {
+    vertical-align: bottom;
+  }
+  .tork-v-align-lg-text-bottom {
+    vertical-align: text-bottom;
+  }
+  .tork-v-align-lg-text-top {
+    vertical-align: text-top;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .tork-v-align-xl-baseline {
+    vertical-align: baseline;
+  }
+  .tork-v-align-xl-top {
+    vertical-align: top;
+  }
+  .tork-v-align-xl-middle {
+    vertical-align: middle;
+  }
+  .tork-v-align-xl-bottom {
+    vertical-align: bottom;
+  }
+  .tork-v-align-xl-text-bottom {
+    vertical-align: text-bottom;
+  }
+  .tork-v-align-xl-text-top {
+    vertical-align: text-top;
+  }
+}
+
+.tork-visible {
+  visibility: visible;
+}
+
+.tork-invisible {
+  visibility: hidden;
+}
+
+@media only screen and (min-width: 576px) {
+  .tork-sm-visible {
+    visibility: visible;
+  }
+  .tork-sm-invisible {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .tork-md-visible {
+    visibility: visible;
+  }
+  .tork-md-invisible {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .tork-lg-visible {
+    visibility: visible;
+  }
+  .tork-lg-invisible {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .tork-xl-visible {
+    visibility: visible;
+  }
+  .tork-xl-invisible {
+    visibility: hidden;
   }
 }
 
