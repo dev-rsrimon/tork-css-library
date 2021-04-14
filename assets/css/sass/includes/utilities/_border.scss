@@ -1,0 +1,10 @@
+//---------------------Border---------------------
+.tork-border {
+  border: 1px solid #dee2e6;
+}
+// Border colors
+@each $name, $color in $tork-theme-colors {
+  .#{tork-border- + $name} {
+    border-color: $color;
+  }
+}

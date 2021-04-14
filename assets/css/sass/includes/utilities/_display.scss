@@ -1,0 +1,19 @@
+// Display Properties Map
+$tork-theme-display: (
+  none: none,
+  block: block,
+  inline-block: inline-block,
+  inline: inline,
+  flex: flex,
+  inline-flex: inline-flex,
+  grid: grid,
+  table: table,
+  table-cell: table-cell,
+  table-row: table-row
+);
+// -----------------------Display item show--------------------
+@each $dname, $value in $tork-theme-display {
+  .#{tork-d- + $dname} {
+    display: $value;
+  }
+};

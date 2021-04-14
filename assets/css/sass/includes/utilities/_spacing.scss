@@ -1,0 +1,110 @@
+/*---------------------------
+* Spacing or marging padding 
+---------------------------*/
+//-------------------------Marging-------------------------
+// Margin around
+@for $i from 1 through 5 {
+  .#{tork-m- + $i} {
+    margin: $i * 0.25rem;
+  }
+}
+
+// Margin Top
+@for $i from 1 through 5 {
+  .#{tork-mt- + $i} {
+    margin-top: $i * 0.25rem;
+  }
+}
+
+// Margin bottom
+@for $i from 1 through 5 {
+  .#{tork-mb- + $i} {
+    margin-bottom: $i * 0.25rem;
+  }
+}
+// Margin left
+@for $i from 1 through 5 {
+  .#{tork-ml- + $i} {
+    margin-left: $i * 0.25rem;
+  }
+}
+// Margin right
+@for $i from 1 through 5 {
+  .#{tork-mr- + $i} {
+    margin-right: $i * 0.25rem;
+  }
+}
+// Margin left and right
+@for $i from 1 through 5 {
+  .#{tork-mx- + $i} {
+    margin: 0 $i * 0.25rem;
+  }
+}
+// Margin top and bottom
+@for $i from 1 through 5 {
+  .#{tork-my- + $i} {
+    margin: $i * 0.25rem 0;
+  }
+}
+
+// Marging left auto
+.tork-mt-auto {
+  margin-top: auto;
+}
+.tork-mb-auto {
+  margin-bottom: auto;
+}
+.tork-ml-auto {
+  margin-left: auto;
+}
+.tork-mr-auto {
+  margin-right: auto;
+}
+.tork-mx-auto {
+  margin-left: 0 auto;
+}
+//-------------------------Paddding-------------------------
+// padding around
+@for $i from 1 through 5 {
+  .#{tork-p- + $i} {
+    padding: $i * 0.25rem;
+  }
+}
+// padding Top
+@for $i from 1 through 5 {
+  .#{tork-pt- + $i} {
+    padding-top: $i * 0.25rem;
+  }
+}
+
+// Padding bottom
+@for $i from 1 through 5 {
+  .#{tork-pb- + $i} {
+    padding-bottom: $i * 0.25rem;
+  }
+}
+// Pdding left
+@for $i from 1 through 5 {
+  .#{tork-pl- + $i} {
+    padding-left: $i * 0.25rem;
+  }
+}
+// Padding right
+@for $i from 1 through 5 {
+  .#{tork-pr- + $i} {
+    padding-right: $i * 0.25rem;
+  }
+}
+
+// Padding left and right
+@for $i from 1 through 5 {
+  .#{tork-px- + $i} {
+    padding: 0 $i * 0.25rem;
+  }
+}
+// Padding top and bottom
+@for $i from 1 through 5 {
+  .#{tork-py- + $i} {
+    padding: $i * 0.25rem 0;
+  }
+}

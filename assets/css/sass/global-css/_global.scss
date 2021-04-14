@@ -1,0 +1,83 @@
+@import "../includes/fonts";
+@import "../includes/grid";
+@import "../includes/colors";
+@import "../includes/utilities/border";
+@import "../includes/utilities/spacing";
+@import "../includes/utilities/typography";
+@import "../includes/utilities/display";
+@import "../includes/utilities/flex";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $primany-font;
+  font-size: $body-font-size;
+  font-weight: $body-font-weight;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: $primary-color;
+}
+
+ul {
+  list-style: none;
+}
+
+/*-----------------
+* tork row style 
+-----------------*/
+.tork-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+/*---------------------
+* tork container style 
+---------------------*/
+.tork-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media only screen and (min-width: 576px) {
+  .tork-container {
+    max-width: 540px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .tork-container {
+    max-width: 720px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .tork-container {
+    max-width: 960px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .tork-container {
+    max-width: 1140px;
+  }
+}
